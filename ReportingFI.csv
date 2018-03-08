@@ -1,0 +1,2 @@
+ResCountryCode,IN,IN.IssuedBy,Name,Name.NameType,Address.LegalAddressType,Address.CountryCode,AddressFix.Street,AddressFix.BuildingIdentifier,AddressFix.POB,AddressFix.PostCode,AddressFix.City,AddressFree,DocTypeIndic,DocRefId
+CH,CHE-123.456.789,CH,Beispiel AG,OECD207,OECD304,CH,Bahnhofstrasse,1,100,8001,Zurich,"Bahnhofstrasse 1, Postfach 100, 8001 Zürich",OECD1,CH2017CH_FI1

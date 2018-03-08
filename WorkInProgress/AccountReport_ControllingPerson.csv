@@ -1,0 +1,3 @@
+AccountNumber,ControllingPersonType,ResCountryCode1,ResCountryCode2,FirstName,MiddleName,LastName,Address.CountryCode,AddressFix.Street,AddressFix.PostCode,AddressFix.City,AddressFix.BuildingIdentifier,AddressFix.SuiteIdentifier,AddressFix.FloorIdentifier,AddressFix.DistrictName,AddressFix.CountrySubentity,
+12345678,CRS801,DE,MC,Richie,M.,Rich,DE,Lange Strasse,12345,Grossstadt,,,,,,,,
+12345678,CRS803,PL,RU,Grzegorz,,Brzeczyszczykiewicz,PL,Ulica Zielona,22-460,Szczebrzeszyn,513,42,4,Powiat Zamojski,Lublin

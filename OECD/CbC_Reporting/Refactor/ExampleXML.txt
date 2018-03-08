@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CBC_OECD version="str1234">
+  <MessageSpec>
+    <SendingEntityIN>str1234</SendingEntityIN>
+    <TransmittingCountry>AF</TransmittingCountry>
+    <ReceivingCountry>AF</ReceivingCountry>
+    <MessageType>CBC</MessageType>
+    <Language>AA</Language>
+    <Warning>str1234</Warning>
+    <Contact>str1234</Contact>
+    <MessageRefId>str1234</MessageRefId>
+    <MessageTypeIndic>CBC401</MessageTypeIndic>
+    <CorrMessageRefId>str1234</CorrMessageRefId>
+    <ReportingPeriod>2012-12-13</ReportingPeriod>
+    <Timestamp>2012-12-13T12:12:12</Timestamp>
+  </MessageSpec>
+  <CbcBody>
+    <ReportingEntity>
+      <Entity>
+        <ResCountryCode>AF</ResCountryCode>
+        <TIN issuedBy="AF">str1234</TIN>
+        <IN issuedBy="AF" INType="str1234">str1234</IN>
+        <Name>str1234</Name>
+        <Address legalAddressType="OECD301">
+          <CountryCode>AF</CountryCode>
+          <AddressFree>str1234</AddressFree>
+        </Address>
+      </Entity>
+      <ReportingRole>CBC701</ReportingRole>
+      <DocSpec>
+        <DocTypeIndic>OECD0</DocTypeIndic>
+        <DocRefId>str1234</DocRefId>
+        <CorrMessageRefId>str1234</CorrMessageRefId>
+        <CorrDocRefId>str1234</CorrDocRefId>
+      </DocSpec>
+    </ReportingEntity>
+    <CbcReports>
+      <DocSpec>
+        <DocTypeIndic>OECD0</DocTypeIndic>
+        <DocRefId>str1234</DocRefId>
+        <CorrMessageRefId>str1234</CorrMessageRefId>
+        <CorrDocRefId>str1234</CorrDocRefId>
+      </DocSpec>
+      <ResCountryCode>AF</ResCountryCode>
+      <Summary>
+        <Revenues>
+          <Unrelated currCode="AED">1234</Unrelated>
+          <Related currCode="AED">1234</Related>
+          <Total currCode="AED">1234</Total>
+        </Revenues>
+        <ProfitOrLoss currCode="AED">1234</ProfitOrLoss>
+        <TaxPaid currCode="AED">1234</TaxPaid>
+        <TaxAccrued currCode="AED">1234</TaxAccrued>
+        <Capital currCode="AED">1234</Capital>
+        <Earnings currCode="AED">1234</Earnings>
+        <NbEmployees>1234</NbEmployees>
+        <Assets currCode="AED">1234</Assets>
+      </Summary>
+      <ConstEntities>
+        <ConstEntity>
+          <ResCountryCode>AF</ResCountryCode>
+          <TIN issuedBy="AF">str1234</TIN>
+          <IN issuedBy="AF" INType="str1234">str1234</IN>
+          <Name>str1234</Name>
+          <Address legalAddressType="OECD301">
+            <CountryCode>AF</CountryCode>
+            <AddressFree>str1234</AddressFree>
+          </Address>
+        </ConstEntity>
+        <IncorpCountryCode>AF</IncorpCountryCode>
+        <BizActivities>CBC501</BizActivities>
+        <OtherEntityInfo>str1234</OtherEntityInfo>
+      </ConstEntities>
+    </CbcReports>
+    <AdditionalInfo>
+      <DocSpec>
+        <DocTypeIndic>OECD0</DocTypeIndic>
+        <DocRefId>str1234</DocRefId>
+        <CorrMessageRefId>str1234</CorrMessageRefId>
+        <CorrDocRefId>str1234</CorrDocRefId>
+      </DocSpec>
+      <OtherInfo>str1234</OtherInfo>
+      <ResCountryCode>AF</ResCountryCode>
+      <SummaryRef>CBC601</SummaryRef>
+    </AdditionalInfo>
+  </CbcBody>
+</CBC_OECD>

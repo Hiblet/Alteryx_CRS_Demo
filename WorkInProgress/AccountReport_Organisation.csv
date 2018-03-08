@@ -1,0 +1,2 @@
+DocTypeIndic,DocRefId,AccountNumber,ResCountryCode,Name,Address.CountryCode,AddressFix.Street,AddressFix.City,AccountHolderType,AccountBalance,AccountBalance.CurrCode
+OECD1,CH2017CH_AR2,12345678,GG,Example Trust,GG,Main Street 25,Guernsey,CRS101,3867851365.78,EUR

@@ -1,0 +1,1232 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.7">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="846" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">MessageSpec.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>8000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MessageSpec.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SendingCompanyIN" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="TransmittingCountry" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="ReceivingCountry" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="MessageType" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="MessageRefId" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="MessageTypeIndic" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="ReportingPeriod" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+            <Field name="Timestamp" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\MessageSpec.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="5178" y="1746" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="240" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>CRS; Workflow to prepare CRS format tax return;  
+
+Change Notes:
+ - V1: Preparation, SH</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="846" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Header.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>8000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Header.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Header" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\Header.csv" type="V_String" />
+            <Field name="Footer" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\Header.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="978" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_ceedf4ed0a244cba8e7118ac64b6def1_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1362" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;&lt;crs:MessageSpec&gt;&quot; +&#xA;&quot;&lt;crs:SendingCompanyIN&gt;&quot; + &#xA;  [SendingCompanyIN] + &#xA;&quot;&lt;/crs:SendingCompanyIN&gt;&quot; + &#xA;&quot;&lt;crs:TransmittingCountry&gt;&quot; + &#xA;  [TransmittingCountry] + &#xA;&quot;&lt;/crs:TransmittingCountry&gt;&quot; + &#xA;&quot;&lt;crs:ReceivingCountry&gt;&quot; + &#xA;  [ReceivingCountry] + &#xA;&quot;&lt;/crs:ReceivingCountry&gt;&quot; +&#xA;&quot;&lt;crs:MessageType&gt;&quot; + &#xA;  [MessageType] + &#xA;&quot;&lt;/crs:MessageType&gt;&quot; + &#xA;&quot;&lt;crs:MessageRefId&gt;&quot; + &#xA;  [MessageRefId] + &#xA;&quot;&lt;/crs:MessageRefId&gt;&quot; + &#xA;&quot;&lt;crs:MessageTypeIndic&gt;&quot; + &#xA;  [MessageTypeIndic] + &#xA;&quot;&lt;/crs:MessageTypeIndic&gt;&quot; +&#xA;&quot;&lt;crs:ReportingPeriod&gt;&quot; + &#xA;  [ReportingPeriod] + &#xA;&quot;&lt;/crs:ReportingPeriod&gt;&quot; + &#xA;&quot;&lt;crs:Timestamp&gt;&quot; + &#xA;  [Timestamp] + &#xA;&quot;&lt;/crs:Timestamp&gt;&quot; + &#xA;&quot;&lt;/crs:MessageSpec&gt;&quot;" field="Template" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Wrap the MessageSpec data in XML Tags</AnnotationText>
+          <DefaultAnnotationText>Template = "&lt;crs:MessageSpec&gt;" +
+"&lt;crs:SendingCompanyIN&gt;" + 
+  [SendingCompanyIN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1446" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_69a2d20e051f412abe052e9254b63ed0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF  &#xA;  (IsNull([Timestamp]) OR IsEmpty([Timestamp]))&#xA;THEN &#xA;  DateTimeFormat(&#xA;   DateTimeToUTC(DateTimeNow()),&quot;%Y-%m-%dT%H:%M:%S&quot; + &quot;Z&quot; )  &#xA;ELSE &#xA;  [Timestamp]&#xA;ENDIF" field="Timestamp" size="8000" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>If Timestamp column is blank, add current timestamp in ISO 8601 format</AnnotationText>
+          <DefaultAnnotationText>Timestamp = IF  
+  (IsNull([Timestamp]) OR IsEmpty([Timestamp]))
+THEN 
+  DateTim...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="846" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">ReportingFI.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28592</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>8000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ReportingFI.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ResCountryCode" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="IN" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="IN.IssuedBy" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="Name" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="Name.NameType" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="Address.LegalAddressType" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="Address.CountryCode" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="AddressFix.Street" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="AddressFix.BuildingIdentifier" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="AddressFix.POB" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="AddressFix.PostCode" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="AddressFix.City" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="AddressFree" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="DocTypeIndic" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+            <Field name="DocRefId" size="8000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\ReportingFI.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;&lt;crs:ReportingFI&gt;&quot; + &#xA;&quot;&lt;crs:ResCountryCode&gt;&quot; + &#xA;  [ResCountryCode] + &#xA;&quot;&lt;/crs:ResCountryCode&gt;&quot; + &#xA;&quot;&lt;crs:IN issuedBy=&quot; + &#xA;  CharFromInt(34) + &#xA;    [IN.IssuedBy] + &#xA;  CharFromInt(34) +&#xA;  &quot;&gt;&quot; + &#xA;    [IN] + &#xA;&quot;&lt;/crs:IN&gt;&quot; + &#xA;&quot;&lt;crs:Name nameType=&quot; +&#xA;  CharFromInt(34) + &#xA;    [Name.NameType] + &#xA;  CharFromInt(34) + &#xA;  &quot;&gt;&quot; + &#xA;    [Name] + &#xA;  &quot;&lt;/crs:Name&gt;&quot; +&#xA;&quot;&lt;crs:Address legalAddressType=&quot; + &#xA;  CharFromInt(34) + &#xA;    [Address.LegalAddressType] + &#xA;  CharFromInt(34) + &#xA;  &quot;&gt;&quot; + &#xA;    &quot;&lt;cfc:CountryCode&gt;&quot; + &#xA;      [Address.CountryCode] + &#xA;    &quot;&lt;/cfc:CountryCode&gt;&quot; + &#xA;    &quot;&lt;cfc:AddressFix&gt;&quot; + &#xA;      &quot;&lt;cfc:Street&gt;&quot; + &#xA;        [AddressFix.Street] + &#xA;      &quot;&lt;/cfc:Street&gt;&quot; + &#xA;      &quot;&lt;cfc:BuildingIdentifier&gt;&quot; + &#xA;        [AddressFix.BuildingIdentifier] + &#xA;      &quot;&lt;/cfc:BuildingIdentifier&gt;&quot; + &#xA;      &quot;&lt;cfc:POB&gt;&quot; + &#xA;        [AddressFix.POB] + &#xA;      &quot;&lt;/cfc:POB&gt;&quot; + &#xA;      &quot;&lt;cfc:PostCode&gt;&quot; + &#xA;        [AddressFix.PostCode] + &#xA;       &quot;&lt;/cfc:PostCode&gt;&quot; + &#xA;      &quot;&lt;cfc:City&gt;&quot; + &#xA;        [AddressFix.City] + &#xA;      &quot;&lt;/cfc:City&gt;&quot; +&#xA;    &quot;&lt;/cfc:AddressFix&gt;&quot; + &#xA;    &quot;&lt;cfc:AddressFree&gt;&quot; + &#xA;      [AddressFree] + &#xA;    &quot;&lt;/cfc:AddressFree&gt;&quot; +&#xA;&quot;&lt;/crs:Address&gt;&quot; + &#xA;&quot;&lt;crs:DocSpec&gt;&quot; + &#xA;  &quot;&lt;stf:DocTypeIndic&gt;&quot; + &#xA;    [DocTypeIndic] + &#xA;  &quot;&lt;/stf:DocTypeIndic&gt;&quot; + &#xA;  &quot;&lt;stf:DocRefId&gt;&quot; + &#xA;    [DocRefId] + &#xA;  &quot;&lt;/stf:DocRefId&gt;&quot; + &#xA;&quot;&lt;/crs:DocSpec&gt;&quot; +&#xA;&quot;&lt;/crs:ReportingFI&gt;&quot;" field="Template" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Wrap the ReportingFI data in XML Tags</AnnotationText>
+          <DefaultAnnotationText>Template = "&lt;crs:ReportingFI&gt;" + 
+"&lt;crs:ResCountryCode&gt;" + 
+  [ResCountryCode] +...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1254" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_231d6cb8ee594cc78a34c124e445079a_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="294" width="360" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Header.csv; Each XML report has a standard XML header.  This is wrapped in CSV file so that Alteryx treats it as text data, and does not try to import the XML directly.
+
+There are two columns, a header and footer, so that the content elements of the XML report can be inserted between the tags.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="498" width="360" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>MessageSpec.csv; Each XML report has a single MessageSpec element.  This is metadata about the report, detailing
+ - Type of report.
+ - Who is submitting.
+ - Time of submission.
+
+Submission time could be left blank, and timestamped automatically by Alteryx when it runs the workflow.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="774" width="360" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ReportingFI.csv; The Reporting Financial Institution section occurs once in the XML document.  
+This CSV holds the data about the reporting institution.  The data elements are wrapped in text XML tags by Alteryx.  
+
+If this data is always the same, it could be prepared in XML (as per the Header.csv file).  If the data, or part of it, is dynamic, it could be sourced from a system and wrapped dynamically by Alteryx, as it is here.
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="846" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">AccountReport_Individual.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>2000000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AccountReport_Individual.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DocTypeIndic" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="DocRefId" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AccountNumber" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AcctNumberType" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="ResCountryCode" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="TIN" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="TIN.IssuedBy" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Name.NameType" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Title" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="FirstName" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="MiddleName" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="NamePrefix" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="LastName" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="GenerationIdentifier" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Address.LegalAddressType" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Address.CountryCode" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AddressFix.Street" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AddressFix.BuildingIdentifier" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AddressFix.PostCode" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AddressFix.City" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Nationality" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="BirthInfo.BirthDate" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="BirthInfo.City" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="BirthInfo.CountryInfo.CountryCode" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AccountBalance" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="AccountBalance.CurrCode" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Payment.Type" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Payment.PaymentAmnt" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+            <Field name="Payment.PaymentAmnt.CurrCode" size="2000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="1038" width="360" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[ReportingFI.csv; The Reporting Financial Institution section occurs once in the XML document.  
+This CSV holds the data about the reporting institution.  The data elements are wrapped in text XML tags by Alteryx.  
+
+If this data is always the same, it could be prepared in XML (as per the Header.csv file).  If the data, or part of it, is dynamic, it could be sourced from a system and wrapped dynamically by Alteryx, as it is here.
+
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1146" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;&lt;crs:AccountReport&gt;&quot;+ &#xA; &quot;&lt;crs:DocSpec&gt;&quot;+ &#xA;  &quot;&lt;stf:DocTypeIndic&gt;&quot;+[DocTypeIndic]+&quot;&lt;/stf:DocTypeIndic&gt;&quot;+   &#xA;  &quot;&lt;stf:DocRefId&gt;&quot;+[DocRefId]+&quot;&lt;/stf:DocRefId&gt;&quot;+ &#xA; &quot;&lt;/crs:DocSpec&gt;&quot;+ &#xA; &quot;&lt;crs:AccountNumber AcctNumberType=&quot;+ &#xA;   CharFromInt(34)+[AcctNumberType]+CharFromInt(34)+&quot;&gt;&quot;+ &#xA;  [AccountNumber]+&#xA; &quot;&lt;/crs:AccountNumber&gt;&quot;+ &#xA; &quot;&lt;crs:AccountHolder&gt;&quot;+ &#xA;  &quot;&lt;crs:Individual&gt;&quot;+ &#xA;   &quot;&lt;crs:ResCountryCode&gt;&quot;+[ResCountryCode]+&quot;&lt;/crs:ResCountryCode&gt;&quot;+&#xA;   &quot;&lt;crs:TIN issuedBy=&quot;+&#xA;     CharFromInt(34)+[TIN.IssuedBy]+CharFromInt(34)+&quot;&gt;&quot;+&#xA;    [TIN]+&#xA;   &quot;&lt;/crs:TIN&gt;&quot;+&#xA;   &quot;&lt;crs:Name nameType=&quot;+&#xA;     CharFromInt(34)+[Name.NameType]+CharFromInt(34)+&quot;&gt;&quot;+&#xA;    &quot;&lt;crs:Title&gt;&quot;+[Title]+&quot;&lt;/crs:Title&gt;&quot;+&#xA;    &quot;&lt;crs:FirstName&gt;&quot;+[FirstName]+&quot;&lt;/crs:FirstName&gt;&quot;+&#xA;    &quot;&lt;crs:MiddleName&gt;&quot;+[MiddleName]+&quot;&lt;/crs:MiddleName&gt;&quot;+&#xA;    &quot;&lt;crs:NamePrefix&gt;&quot;+[NamePrefix]+&quot;&lt;/crs:NamePrefix&gt;&quot;+&#xA;    &quot;&lt;crs:LastName&gt;&quot;+[LastName]+&quot;&lt;/crs:LastName&gt;&quot;+&#xA;    &quot;&lt;crs:GenerationIdentifier&gt;&quot;+[GenerationIdentifier]+&quot;&lt;/crs:GenerationIdentifier&gt;&quot;+&#xA;   &quot;&lt;/crs:Name&gt;&quot;+&#xA;   &quot;&lt;crs:Address legalAddressType=&quot;+&#xA;     CharFromInt(34)+[Address.LegalAddressType]+CharFromInt(34)+&quot;&gt;&quot;+&#xA;    &quot;&lt;cfc:CountryCode&gt;&quot;+[Address.CountryCode]+&quot;&lt;/cfc:CountryCode&gt;&quot;+&#xA;    &quot;&lt;cfc:AddressFix&gt;&quot;+&#xA;     &quot;&lt;cfc:Street&gt;&quot;+[AddressFix.Street]+&quot;&lt;/cfc:Street&gt;&quot;+&#xA;     &quot;&lt;cfc:BuildingIdentifier&gt;&quot;+[AddressFix.BuildingIdentifier]+&quot;&lt;/cfc:BuildingIdentifier&gt;&quot;+&#xA;     &quot;&lt;cfc:PostCode&gt;&quot;+[AddressFix.PostCode]+&quot;&lt;/cfc:PostCode&gt;&quot;+&#xA;     &quot;&lt;cfc:City&gt;&quot;+[AddressFix.City]+&quot;&lt;/cfc:City&gt;&quot;+&#xA;    &quot;&lt;/cfc:AddressFix&gt;&quot;+&#xA;   &quot;&lt;/crs:Address&gt;&quot;+&#xA;   &quot;&lt;crs:Nationality&gt;&quot;+[Nationality]+&quot;&lt;/crs:Nationality&gt;&quot;+&#xA;   &quot;&lt;crs:BirthInfo&gt;&quot;+&#xA;    &quot;&lt;crs:BirthDate&gt;&quot;+[BirthInfo.BirthDate]+&quot;&lt;/crs:BirthDate&gt;&quot;+&#xA;    &quot;&lt;crs:City&gt;&quot;+[BirthInfo.City]+&quot;&lt;/crs:City&gt;&quot;+&#xA;    &quot;&lt;crs:CountryInfo&gt;&quot;+&#xA;     &quot;&lt;crs:CountryCode&gt;&quot;+[BirthInfo.CountryInfo.CountryCode]+&quot;&lt;/crs:CountryCode&gt;&quot;+&#xA;    &quot;&lt;/crs:CountryInfo&gt;&quot;+&#xA;   &quot;&lt;/crs:BirthInfo&gt;&quot;+&#xA;  &quot;&lt;/crs:Individual&gt;&quot;+&#xA; &quot;&lt;/crs:AccountHolder&gt;&quot;+&#xA; &quot;&lt;crs:AccountBalance currCode=&quot;+&#xA;   CharFromInt(34)+[AccountBalance.CurrCode]+CharFromInt(34)+&quot;&gt;&quot;+&#xA;   [AccountBalance]+&#xA; &quot;&lt;/crs:AccountBalance&gt;&quot;+ &#xA; &quot;&lt;crs:Payment&gt;&quot;+&#xA;  &quot;&lt;crs:Type&gt;&quot;+[Payment.Type]+&quot;&lt;/crs:Type&gt;&quot;+&#xA;  &quot;&lt;crs:PaymentAmnt currCode=&quot;+&#xA;    CharFromInt(34)+[Payment.PaymentAmnt.CurrCode]+CharFromInt(34)+&quot;&gt;&quot;+&#xA;    [Payment.PaymentAmnt]+&#xA;  &quot;&lt;/crs:PaymentAmnt&gt;&quot;+&#xA; &quot;&lt;/crs:Payment&gt;&quot;+&#xA;&quot;&lt;/crs:AccountReport&gt;&quot; &#xA;" field="Template" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Wrap each AccountReport element in tags</AnnotationText>
+          <DefaultAnnotationText>Template = "&lt;crs:AccountReport&gt;"+ 
+ "&lt;crs:DocSpec&gt;"+ 
+  "&lt;stf:DocTypeIndic&gt;"+[Do...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1242" y="966" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_03d7f0347dd141eba67c4fa66b5fcc85_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1362" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Template" selected="True" rename="AccountReports" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop all the source columns as they are no longer needed.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1578" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="AccountReports" action="Concat" rename="AllAccountReports">
+              <Concat_Start />
+              <Separator />
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Concatenate each AccountReport XML string into one single string</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1674" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_0fe2086e61af48e78a68cb48a9958a54_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1794" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;&lt;crs:ReportingGroup&gt;&quot;+&#xA; [AllAccountReports]+&#xA;&quot;&lt;/crs:ReportingGroup&gt;&quot;&#xA;" field="AllAccountReports" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Wrap the AccountReport XML elements in the ReportingGroup tag</AnnotationText>
+          <DefaultAnnotationText>AllAccountReports = "&lt;crs:ReportingGroup&gt;"+
+ [AllAccountReports]+
+"&lt;/crs:Reporti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1362" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Template" selected="True" rename="ReportingFI" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop the source columns</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="1986" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Add the ReportingFI and ReportingGroup elements fields to the same stream.</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2094" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_02b6b146307241e094cc241d209e8940_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2250" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;&lt;crs:CrsBody&gt;&quot;+&#xA;  [ReportingFI]+[AllAccountReports]+&#xA;&quot;&lt;/crs:CrsBody&gt;&quot;" field="CRSBody" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Concat the ReportingFI and ReportingGroup tags, and wrap in CRSBody tag</AnnotationText>
+          <DefaultAnnotationText>CRSBody = "&lt;crs:CrsBody&gt;"+
+  [ReportingFI]+[AllAccountReports]+
+"&lt;/crs:CrsBody&gt;"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1602" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Template" selected="True" rename="MessageSpec" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop the source columns</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2454" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CRSBody" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop unwanted columns</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="2682" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join the MessageSpec and CRSBody fields into the same stream</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2886" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[MessageSpec]+[CRSBody]" field="CRS_OECD" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Concatenate the MessageSpec and CRSBody elements to make the CRS_OECD tag content.</AnnotationText>
+          <DefaultAnnotationText><![CDATA[CRS_OECD = [MessageSpec]+[CRSBody]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3090" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CRS_OECD" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop unwanted fields</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="3318" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Target_Header" selected="True" />
+                <SelectField field="Target_Footer" selected="True" />
+                <SelectField field="Source_CRS_OECD" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Join the Header, Footer and CRS_OECD content into one stream</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3522" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Header]+[CRS_OECD]+[Footer]" field="XMLReport" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Wrap the CRS_OECD report content in the Header and Footer tags.</AnnotationText>
+          <DefaultAnnotationText><![CDATA[XMLReport = [Header]+[CRS_OECD]+[Footer]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3726" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="XMLReport" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Drop unwanted columns</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3678" y="186" width="204" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>At this stage, the report has been built into one single string, and it can now be validated.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3978" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">XMLReport.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>XMLReport.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3810" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_27879c0e18e4491490b924a759610008_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="846" y="1194" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">AccountReport_Individual_INVALID.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>20000000</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AccountReport_Individual_INVALID.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DocTypeIndic" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="DocRefId" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AccountNumber" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AcctNumberType" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="ResCountryCode" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="TIN" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="TIN.IssuedBy" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Name.NameType" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Title" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="FirstName" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="MiddleName" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="NamePrefix" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="LastName" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="GenerationIdentifier" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Address.LegalAddressType" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Address.CountryCode" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AddressFix.Street" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AddressFix.BuildingIdentifier" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AddressFix.PostCode" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AddressFix.City" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Nationality" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="BirthInfo.BirthDate" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="BirthInfo.City" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="BirthInfo.CountryInfo.CountryCode" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AccountBalance" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="AccountBalance.CurrCode" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Payment.Type" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Payment.PaymentAmnt" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+            <Field name="Payment.PaymentAmnt.CurrCode" size="20000000" source="File: C:\Users\User\Continuum Consulting\Client Documents - Dominion\Workflows\V1\AccountReport_Individual_INVALID.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="1134" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_6627a82efd7845e796fcb7617b630edf_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="978" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\User\AppData\Local\Temp\Engine_11672_aa240ea6af7047019599ac7112afb60b_\Engine_1504_aedb836a92e94f04b973f549854d5805_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="38" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="29" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CRS</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
